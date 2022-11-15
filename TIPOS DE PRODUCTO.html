@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Menu Formularios</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+</head>
+<body>
+  <br><br>
+  <header>
+  	<h1>BALNEARIO LA CANDELARIA</h1>
+  </header>
+ 	<nav id="principal">Menú principal     
+    <div id="menu">
+      <ul>
+      <li class="nivel1">
+          <a href="Datos PERSONALES DEL EMPLEADO.html" class="nivel1">Datos PERSONALES DEL EMPLEADO</a>
+        </li>
+         <li class="nivel1">
+          <a href="FUNCION DEL EMPLEADO.HTML" class="nivel1">FUNCION DEL EMPLEADO</a>           
+        </li>
+        <li class="nivel1">
+          <a href="JUEGOS INFLABLES.html" class="nivel1">JUEGOS INFLABLES</a>          
+        </li>
+        <li class="nivel1">
+          <a href="BALNEARIO LA CANDELARIA.html" class="nivel1">BALNEARIO LA CANDELARIA</a>          
+        </li>
+        <li class="nivel1">
+          <a href="Datos PERSONALES DEL CLIENTE.HTML" class="nivel1">Datos PERSONALES DEL CLIENTE</a>           
+        </li>
+        <li class="nivel1">
+          <a href="PRODUCTO.HTML" class="nivel1">PRODUCTO</a>           
+        </li>
+        <li class="nivel1">
+          <a href="TIPOS DE PRODUCTO.HTML" class="nivel1">TIPOS DE PRODUCTO</a>           
+        </li>
+         <li class="nivel1">
+          <a href="PROMOCIONES.HTML" class="nivel1">PROMOCIONES</a>           
+        </li>
+        <li class="nivel1">
+          <a href="SERVICIO.HTML" class="nivel1">SERVICIO</a>           
+        </li>
+          <li class="nivel1">
+          <a href="DETALLE DE SERVICIO.HTML" class="nivel1">DETALLE DE SERVICIO</a>           
+        </li>
+
+
+     
+        
+      </div>
+    </nav>
+    <br><br>
+    <!--AQUI VA EL CODIGO PARA LOS FORMULARIOS--> 
+    <section id="columna">
+      <header id="subtitulo2">TIPOS DE PRODUCTO.HTML</header>
+      <form action="dos.html">
+        <table  border="1" >
+          <tr>
+            <td>
+              <table border="0">
+                <tr>
+                  <td>Id_producto:</td><td><input type="number" name="Id_producto" min="1" size="10" required=""></td>
+                </tr>
+                <tr>
+                  <td>Nombre:</td><td><input type ="text" name="nombre" pattern="[a-z]{15}" required=""></td>
+                </tr>
+                <tr>
+                  <td>Tipo de Producto:</td>
+                  <td>
+                    <input name="Tipo_de_Producto" value="Soda" checked="" type="RADIO">Soda<br>
+                    <input name="Tipo_de_Producto" value="Cerveza" type="RADIO">Cerveza<br>
+                    <input name="Tipo_de_Producto" value="Agua" type="RADIO">Agua<br>
+                    <input name="Tipo_de_Producto" value="Vino" type="RADIO">Vino<br>
+                    <input name="Tipo_de_Producto" value="Sopa" type="RADIO">Sopa<br>
+                    <input name="Tipo_de_Producto" value="Segundo" type="RADIO">Segundo
+                  </td>
+                </tr>
+                
+                <tr> 
+                  <td>Fecha de Venta:</td>
+                  <td>
+                    <select name="año">
+                      <option value="año">año</option>
+                      <option value="año">2019</option>
+                      <option value="año">2020</option>
+                      <option value="año">2021</option>
+                      <option value="año">2022</option>
+                      <option value="año">2023</option>
+                      <option value="año">2024</option>
+                      
+                    </select>
+                    -
+                    <select name="mes">
+                      <option value="mes">mes</option>
+                      <option value="mes">Enero</option>
+                      <option value="mes">Febrero</option>
+                      <option value="mes">Marzo</option>
+                      <option value="mes">Abril</option>
+                      <option value="mes">Mayo</option>
+                      <option value="mes">Junio</option>
+                      <option value="mes">Julio</option>
+                      <option value="mes">Agosto</option>
+                      <option value="mes">Septiembre</option>
+                      <option value="mes">Octubre</option>
+                      <option value="mes">Noviembre</option>
+                      <option value="mes">Diciembre</option>
+                    </select>
+                    -
+                    <select name="dia">
+                      <option value="dia">  dia</option>
+                      <option value="dia">1</option>
+                      <option value="dia">2</option>
+                      <option value="dia">3</option>
+                      <option value="dia">4</option>
+                      <option value="dia">5</option>
+                      <option value="dia">6</option>
+                      <option value="dia">7</option>
+                      <option value="dia">8</option>
+                      <option value="dia">9</option>
+                      <option value="dia">10</option>
+                      <option value="dia">11</option>
+                      <option value="dia">12</option>
+                      <option value="dia">13</option>
+                      <option value="dia">14</option>
+                      <option value="dia">15</option>
+                      <option value="dia">16</option>
+                      <option value="dia">17</option>
+                      <option value="dia">18</option>
+                      <option value="dia">19</option>
+                      <option value="dia">20</option>
+                      <option value="dia">21</option>
+                      <option value="dia">22</option>
+                      <option value="dia">23</option>
+                      <option value="dia">24</option>
+                      <option value="dia">25</option>
+                      <option value="dia">26</option>
+                      <option value="dia">27</option>
+                      <option value="dia">28</option>
+                      <option value="dia">29</option>
+                      <option value="dia">30</option>
+                      <option value="dia">31</option>
+                    </select>
+                  </td>
+                </tr>
+                <tr>
+                  <td>Descripcion:</td>
+                  <td><textarea name="comentarios" rows="10" cols="25"></textarea></td>
+                </tr>  
+                <tr>
+                  <td>Persona encargada:</td><td><input type="text"name="nombre" pattern="[a-z]{15}" required="" ></td>
+                </tr> 
+                <tr>
+                  <td colspan="2" align="center">
+                    <input type="submit" value="ENVIAR"></input>                   
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+        </table>
+      </form>  
+  </section>  
+</body>
+</html>
